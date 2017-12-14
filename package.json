@@ -1,0 +1,17 @@
+{
+  "name": "my-api",
+  "main": "server.js",
+  "dependencies": {
+    "@dadi/api": "3.x",
+    "@dadi/api-filestore": "^0.10.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "A to-do list application built with DADI API",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

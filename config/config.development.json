@@ -1,0 +1,32 @@
+{
+  "datastore": "@dadi/api-filestore",
+  "app": {
+    "name": "Todos API"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8081,
+    "protocol": "http"
+  },
+  "publicUrl": {
+    "host": 80
+  },
+  "caching": {
+    "directory": {
+      "enabled": true,
+      "path": "./cache/web"
+    },
+    "redis": {
+      "enabled": false
+    }
+  },
+  "media": {},
+  "env": "development",
+  "auth": {
+    "datastore": "@dadi/api-filestore",
+    "database": "todosapi"
+  },
+  "paths": {
+    "collections": "workspace/collections"
+  }
+}

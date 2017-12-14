@@ -1,0 +1,33 @@
+{
+  "fields": {
+    "name": {
+      "type": "String"
+    },
+    "email": {
+      "type": "String",
+      "validation": {
+        "regex": {
+          "pattern": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$",
+          "flags": "gi"
+        }
+      },
+      "message": "must be a valid email address"
+    }
+  },
+  "settings": {
+    "cache": false,
+    "authenticate": true,
+    "count": 40,
+    "sort": "name",
+    "sortOrder": 1,
+    "storeRevisions": true,
+    "revisionCollection": "userHistory",
+    "index": {
+      "enabled": true,
+      "keys": {
+        "name": 1
+      }
+    },
+    "description": "Represents people who have registered with the system"
+  }
+}

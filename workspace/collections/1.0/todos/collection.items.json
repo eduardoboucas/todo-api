@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "name": {
+      "type": "String",
+      "required": true
+    },
+    "assignee": {
+      "type": "Reference",
+      "settings": {
+        "collection": "users"
+      }
+    },
+    "completed": {
+      "type": "Boolean",
+      "default": false
+    }
+  },
+  "settings": {
+    "cache": true
+  }
+}
