@@ -1,6 +1,6 @@
 # Building a to-do list application with DADI API
 
-> NOTE: This repository contains the to-do list application already configured, so you can skip the *Installation* section and simply run `npm install && npm start`. The original article can be found on the [DADI Forum](https://forum.dadi.tech/).
+> **NOTE:** This repository contains the to-do list application already configured, so you can skip the *Installation* section and simply run `npm install && npm start`. The original article can be found on the [DADI Forum](https://forum.dadi.tech/).
 
 In this article, I'll show you how to build a simple application with DADI API, covering everything from the installation process to the definition of the data architecture.
 
